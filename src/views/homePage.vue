@@ -1811,7 +1811,7 @@
                     修改须知 
                     可以修改群号但是必须留下地址
                 */
-                const content = type == 'qq' ? '920930589' : 'https://github.com/setube/vue-XiuXianGame';
+                const content = type == 'qq' ? 'None' : 'https://github.com/setube/vue-XiuXianGame';
                 this.$prompt('', type == 'qq' ? '官方群聊' : '开源地址', {
                     inputValue: content,
                     showCancelButton: false,
